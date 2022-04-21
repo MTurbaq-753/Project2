@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<quiz>
+  <question>
+    <Id>1</Id>
+    <title>How to write an IF statement in JavaScript?</title>
+    <answer1>if (i == 5)</answer1>
+    <answer2>if i = 5</answer2>
+    <answer3>if i == 5 then</answer3>
+    <answer4>if i = 5 then</answer4>
+   </question>
+  <question>
+    <Id>2</Id>
+    <title>How to write an IF statement for executing some code if "i“ ”s NOT equal to 5?</title>
+    <answer1>if i =! 5 then</answer1>
+    <answer2>if (i != 5)</answer2>
+    <answer3>if i &lt;&gt; 5</answer3>
+    <answer4>if (i &lt;&gt; 5)</answer4>
+  </question>
+  <question>
+    <Id>3</Id>
+    <title>How does a FOR loop start?</title>
+    <answer1>while (i &lt;= 10)</answer1>
+    <answer2>while (i &lt;= 10; i++)
+    </answer2>
+    <answer3>while i = 1 to 10</answer3>
+   </question>
+  <question>
+    <Id>4</Id>
+    <title>How do you round the number 7.25, to the nearest integer?</title>
+    <answer1>if i =! 5 then</answer1>
+    <answer2>if (i != 5)</answer2>
+    <answer3>if i &lt;&gt; 5</answer3>
+    <answer4>if (i &lt;&gt; 5)</answer4>
+  </question>
+  <question>
+    <Id>5</Id>
+    <title>How to write an IF statement in JavaScript?</title>
+    <answer1>if (i == 5)</answer1>
+    <answer2>if i = 5</answer2>
+    <answer3>if i == 5 then</answer3>
+    <answer4>if i = 5 then</answer4>
+  </question>
+  <question>
+    <Id>6</Id>
+    <title>How do you find the number with the highest value of x and y?  </title>
+    <answer1>if i =! 5 then</answer1>
+    <answer2>if (i != 5)</answer2>
+    <answer3>if i &lt;&gt; 5</answer3>
+    <answer4>if (i &lt;&gt; 5)</answer4>
+  </question>
+</quiz>

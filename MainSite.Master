@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainSite.master.cs" Inherits="IS424_Project.MainSite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="Style/CssStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="container">
+                <div class="navbar">
+                    <a href="Default.aspx">
+                        <img src="../images/green home.png" class="logo" title="Home Page" /></a>
+                    <nav>
+                        <div class="dropdown">
+                            <button class="dropbtn">Lectures</button>
+                            <div class="dropdown-content">
+                                <a href="lecHtml.aspx">HTML</a>
+                                <a href="lecCSS.aspx">CSS</a>
+                                <a href="lecJAVA.aspx">JavaScript</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Tutorials/Labs</button>
+                            <div class="dropdown-content">
+                                <a href="Tut.aspx">Tutorials</a>
+                                <a href="Labs.aspx">Labs</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Exams</button>
+                            <div class="dropdown-content">
+                                <a href="frm_Html.aspx">HTML</a>
+                                <a href="frm_CSS.aspx">CSS</a>
+                                <a href="frm_JavaScript.aspx">JavaScript</a>
+                            </div>
+                        </div>
+                         <asp:LinkButton ID="link_loginout" runat="server" Text="Login" CssClass="nav-link" OnClick="link_loginout_Click" ForeColor="White" Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Underline="False"></asp:LinkButton>
+                    </nav>
+                </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <hr />
+        <footer>
+            <p style="text-align: center" class="footer">
+                <span>&copy;copyright by KSU Students</span>
+            </p>
+        </footer>
+    </form>
+</body>
+</html>

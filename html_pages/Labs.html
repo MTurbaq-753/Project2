@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Labs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            min-height: auto;
+            margin: auto;
+        }
+
+        .container {
+            width: 100%;
+            min-height: 100vh;
+            padding-left: 8%;
+            padding-right: 8%;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        .navbar {
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 100px;
+            cursor: pointer;
+            margin: 0px 5px 10px 10px;
+            background: none;
+        }
+
+        nav {
+            flex: 1;
+            text-align: left;
+            margin: 0px;
+            background-color: #0d4472;
+        }
+
+        .dropbtn {
+            background: none;
+            color: white;
+            padding: 20px;
+            font-size: 16px;
+            border: none;
+            cursor: default;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .dropdown-content a:hover {
+                    color: #ff5ea2;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            color: #ff5ea2;
+        }
+
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(images/white-concrete-wall_53876-92803.webp);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        .intro {
+            text-align: center;
+            margin-top: 35px;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .orderedlist {
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .video {
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+        @media only screen and (max-width: 620px) {
+            /* For mobile phones: */
+            .video {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <dev class="container">
+        <dev class="navbar">
+            <a href="Main.html"> <img src="images/icon.png" class="logo" title="Home Page"/></a>
+            <nav>
+                <div class="dropdown">
+                    <button class="dropbtn">Lectures</button>
+                    <div class="dropdown-content">
+                        <a href="HTML.html">HTML</a>
+                        <a href="CSS.html">CSS</a>
+                        <a href="JAVASCRIPT.html">JavaScript</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Tutorials/Labs</button>
+                    <div class="dropdown-content">
+                        <a href="Tut.html">Tutorials</a>
+                        <a href="Labs.html">Labs</a>
+
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Exams</button>
+                    <div class="dropdown-content">
+                        <a href="HTMLexam.html">HTML</a>
+                        <a href="CSSexam.html">CSS</a>
+                        <a href="JAVAexam.html">JavaScript</a>
+                    </div>
+                </div>
+
+            </nav>
+
+        </dev>
+    </dev>
+
+    <h2 class="intro">
+        HTML/CSS Labs
+    </h2>
+    <hr />
+    <dev>
+        <img src="images/ex1.png" style="border:solid 10px black;display: block; margin-left: auto; margin-right: auto; width: 40%;" />
+
+
+        <p style="text-align: center; margin-top: 20px; margin-bottom: 50px; padding: 0; font-family: sans-serif; font-size: 20px;">
+            For other <b>HTML</b> labs click <a href="Labs/Lab1.pdf" target="_blank">
+                here
+            </a>
+        </p>
+
+    </dev>
+    <hr />
+    <dev>
+        <img src="images/ex2.png" style="border:solid 10px black;display: block; margin-left: auto; margin-right: auto; width: 40%;" />
+
+
+        <p style="text-align: center; margin-top: 50px;margin-bottom: 10px; padding: 0; font-family: sans-serif; font-size: 20px;">
+            For other <b>CSS</b> labs click <a href="Labs/Lab2.pdf" target="_blank">
+                here
+            </a>
+        </p>
+    </dev>
+
+
+
+
+
+
+</body>
+</html>

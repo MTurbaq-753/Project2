@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            min-height: auto;
+            margin: auto;
+        }
+
+        .container {
+            width: 100%;
+            min-height: 100vh;
+            padding-left: 8%;
+            padding-right: 8%;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        .navbar {
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 100px;
+            cursor: pointer;
+            margin: 0px 5px 10px 10px;
+            background: none;
+        }
+
+        nav {
+            flex: 1;
+            text-align: left;
+            margin: 0px;
+            background-color: #0d4472;
+        }
+
+        .dropbtn {
+            background: none;
+            color: white;
+            padding: 20px;
+            font-size: 16px;
+            border: none;
+            cursor: default;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .dropdown-content a:hover {
+                    color: #ff5ea2;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            color: #ff5ea2;
+        }
+
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(images/white-concrete-wall_53876-92803.webp);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        .intro {
+            text-align: center;
+            margin-top: 35px;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .orderedlist {
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .video {
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+        @media only screen and (max-width: 620px) {
+            /* For mobile phones: */
+            .video {
+                width: 80%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <dev class="container">
+        <dev class="navbar">
+            <a href="Main.html"> <img src="images/icon.png" class="logo" title="Home Page"/></a>
+            <nav>
+                <div class="dropdown">
+                    <button class="dropbtn">Lectures</button>
+                    <div class="dropdown-content">
+                        <a href="HTML.html">HTML</a>
+                        <a href="CSS.html">CSS</a>
+                        <a href="JAVASCRIPT.html">JavaScript</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Tutorials/Labs</button>
+                    <div class="dropdown-content">
+                        <a href="Tut.html">Tutorials</a>
+                        <a href="Labs.html">Labs</a>
+
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Exams</button>
+                    <div class="dropdown-content">
+                        <a href="HTMLexam.html">HTML</a>
+                        <a href="CSSexam.html">CSS</a>
+                        <a href="JAVAexam.html">JavaScript</a>
+                    </div>
+                </div>
+
+            </nav>
+
+        </dev>
+    </dev>
+    <h1 class="intro">
+        1- Introduction to CSS
+    </h1>
+
+    <center>
+        <video class="video" controls width="600" height="400" autoplay muted>
+            <source src="videos/1stVideo_CSS.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+    </center>
+    <hr />
+    <ol class="orderedlist">
+        <li>
+            <h2>2- Changing font type, color, and size</h2>
+            <video class="video" controls width="600" height="400">
+                <source src="videos/2stVideo_CSS.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+
+        </li>
+        <hr />
+        <li>
+            <h2>3- Multiple selectors and writing rule for more than one element</h2>
+            <video class="video" controls width="600" height="400">
+                <source src="videos/3stVideo_CSS.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+
+        </li>
+        <hr />
+        <li>
+            <h2>4- Add a line to header and border property</h2>
+            <video class="video" controls width="600" height="400">
+                <source src="videos/4stVideo_CSS.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+
+        </li>
+    </ol>
+
+
+
+
+
+
+
+</body>
+</html>
